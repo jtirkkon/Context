@@ -1,7 +1,7 @@
 import React from 'react';
 import ThemeContext from './ThemeContext'
 
-function HeaderButton(props) {
+function HeaderButton() {
   const themeContext = React.useContext(ThemeContext);
   //console.log(themeContext);
   const [buttonStyle, setButtonStyle] = React.useState(themeContext.black);
